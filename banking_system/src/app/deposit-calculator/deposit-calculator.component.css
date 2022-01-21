@@ -1,0 +1,57 @@
+.payment{
+    display: inline;
+    /* justify-content: space-around; */
+}
+.loan{
+    margin: 20px 70px;
+}
+h1{
+    text-align: center;
+    border-bottom: 2px solid yellow;
+    width: 400px;
+    text-transform: uppercase;
+}
+.emi{
+    border: 1px solid black;
+    background-color: gray;
+    color: white;
+    margin: 5px;
+    padding: 5px 8px;
+    width: 400px;
+}
+.total{
+    border: 1px solid black;
+    background-color: gray;
+    color: white;
+    margin: 5px;
+    padding: 5px 8px;
+    width: 400px;
+}
+/* .principle{
+    display: flex;
+    justify-content: space-evenly;
+} */
+.principle label{
+    margin-right: 30px;
+    font-size: 24px;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+.loan{
+    margin: 0 350px;
+}
+.duration label{
+    margin-right: 125px;
+    font-size: 24px;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+.loantype label{
+    margin-right: 75px;
+    font-size: 24px;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+.loantype select{
+    padding: 3px 35px;
+}

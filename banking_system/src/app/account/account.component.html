@@ -1,0 +1,43 @@
+<div class="container">
+    <div class="verify">
+        <div class="row">
+            <div class="mb-2">
+                <label for="" class="col-3">Name</label>
+                <input type="text" value="" [(ngModel)]='name'>
+            </div>
+        </div>
+        <div class="row">
+            <div class="mb-2">
+                <label for="" class="col-3">Phone number</label>
+                <input type="number" value="" [(ngModel)]='phone'>
+            </div>
+        </div>
+        <div class="row">
+            <div class="mb-2">
+                <label for="" class="col-3">Acc number</label>
+                <input type="number" value="" [(ngModel)]='account'>
+            </div>
+        </div>
+        <div class="row">
+            <div class="mb-2">
+                <label for="" class="col-3">UPI</label>
+                <input type="number" value="bank@bybl" [(ngModel)]='upi'>
+            </div>
+        </div>
+        <div class="row">
+            <div class="mb-2">
+                <label for="" class="col-3">Initial Balance</label>
+                <input type="text" value="" [(ngModel)]='iBalance'>
+            </div>
+        </div>
+        <div class="row">
+            <div>
+                <label for="" class="col-3">Available Balance</label>
+                <input type="text" value="" [(ngModel)]='aBalance'>
+            </div>
+        </div>
+        <div>
+            <button type="submit" class="btn btn-success" (click)="create()">submit</button>
+        </div>
+    </div>
+</div>

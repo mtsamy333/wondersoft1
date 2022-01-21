@@ -1,0 +1,35 @@
+<div class="container">
+    <div class="calculate">
+        <h1>Deposit Calculator</h1>
+        <div class=" invest mb-3">
+            <label for="invest_amount" class="form-label">invest Amount</label>
+            <input type="text" class="form-control" name="" id="invest_amount" placeholder="" class="" #iAmount>
+        </div>
+        <div class="interest mb-3">
+            <label for="interest" class="form-label">interest</label>
+            <select class="form-control" name="" id="interest" class="" #interest>
+                <option value="5">5</option>
+                <option value="8">8</option>
+                <option value="10">10</option>
+            </select>
+        </div>
+        <div class="control mb-3">
+            <label for="duration" class="form-label">duration</label>
+            <input type="text" class="form-control" name="" id="duration" placeholder="" class="" #duration>
+        </div>
+        <div>
+            <button type="text" class="btn btn-success"
+                (click)="calculateValue(iAmount.value, duration.value, interest.value)">calculate</button>
+            <div class="payment">
+                <div class="total">
+                    <h4>Interest: <span>&#8377;</span>{{ total1 }}</h4>
+                </div>
+                <!-- <div class="total">
+                    <h4>Compound: <span>&#8377;</span>{{ total2 }}</h4>
+                </div> -->
+            </div>
+        </div>
+    </div>
+</div>
+
+

@@ -1,0 +1,36 @@
+<div class="container">
+    <div class="loan">
+    <h1>loan calculator</h1>
+        <div class="principle mb-4">
+                <label for="principle_amount" class="form-label">principle Amount</label>
+                <input type="text" class="form-control" name="" id="principle_amount" placeholder=""
+                    class=" justify-content-start" #pAmount>
+        </div>
+        <div class="duration mb-4">
+                <label for="duration" class="form-label">Duration</label>
+                <input type="text" class="form-control" name="" id="duration" placeholder="" class="" #duration>
+
+        </div>
+        <div class="loantype mb-3">
+            <label for="loan_type" class="form-label">Type Of Loan</label>
+            <select class="form-control" name="" id="loan_type" class="" #loanType>
+                <option value="7">home loan</option>
+                <option value="8">vehicle loan</option>
+                <option value="10">personal loan</option>
+            </select>
+        </div>
+        <div>
+            <button type="text" class="btn btn-success mx-4"
+                (click)="calculateValue(pAmount.value, duration.value, loanType.value)">calculate</button>
+            <!-- <button type="text" class="btn btn-primary">EMI</button> -->
+            <div class="payment">
+                <div class="emi">
+                     <h4>Monthly EMI : <span>&#8377;</span>{{ emi }}</h4>
+                </div>
+                <div class="total">
+                    <h4>Total Amount: <span>&#8377;</span>{{ total }}</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

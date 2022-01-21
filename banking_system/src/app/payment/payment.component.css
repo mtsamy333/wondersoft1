@@ -1,0 +1,19 @@
+.card label{
+    font-size: 30px;
+    margin: 0;
+}
+input{
+    margin: 0;
+}
+button{
+    padding: 5px 70px;
+}
+.number{
+    padding-left: 300px;
+}
+.card{
+    background-color: coral;
+    border: 1px solid black;
+    width: 900px;
+    margin: 0 250px;
+}

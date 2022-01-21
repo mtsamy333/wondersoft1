@@ -1,0 +1,28 @@
+
+
+<div class="card">
+    <div class="row">
+        <div class="col-sm-3">
+            <label>Phone Number</label>
+        </div>
+        <div class="col-sm-4">
+            <input type="number" [(ngModel)]="number">
+        </div>
+        <div class="col-1"></div>
+        <div class="col-4">
+            <button type="button" class="btn btn-success" (click)="verify()">verify</button>
+        </div>
+    </div>
+    <div class=" row">
+        <div class="col-sm-3">
+            <label>Amount</label>
+        </div>
+        <div class="col-sm-4">
+            <input type="number" disabled [(ngModel)]="amount">
+        </div>
+    </div>
+    <div class="card-footer d-flex ">
+        <button class="btn btn-warning" routerLink="">Close
+        </button>
+    </div>
+</div>
